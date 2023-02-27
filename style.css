@@ -1,0 +1,132 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    max-width: 1440px;
+    margin: 0 auto ;
+    
+}
+
+main{
+    width: 1440px; 
+    width: 100%;
+    height: 500px;
+    background: white;
+    display: flex;
+    justify-content: flex-end;
+    background: #00000005;
+}
+main article {
+    display: flex;
+    justify-content: flex-end;
+    background: gray;
+    height: 100%;
+    width: 200px;
+}
+#banner{
+    position: relative;
+    width:100%;
+    height: 200px;
+    background-image: url(./img/frequency-wave.jpg);
+}
+#logo{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 100px;
+    transform: translate(-50%,-50%);
+    width: 150px;
+    height: 150px;
+    background-image:url(./img/golden-swing-1964101_960_720.png);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background: pink;
+}
+nav ul {
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    
+    justify-content: space-evenly;
+    width: 60%;
+    height: 100%;
+    /* border: 1px solid; */
+   
+}
+nav ul a {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 33%;
+    margin: 5px;
+    text-align: center;
+    background: white;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+nav ul a:hover{
+    background: red;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+main{
+
+    
+}
+footer{
+    background: lightgray;
+    height: 200px;
+}
+footer div {
+   display: flex;
+   flex-direction: column;
+    width: 50%;
+    height: 50%;
+    /* border: 1px solid black; */
+    flex-wrap: wrap;
+}
+footer div a{
+    
+
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+#yellow{
+    background:yellow ;
+}
+#black{
+    background:black ;
+}
+#grey{
+    background:grey ;
+}
+#red{
+    background:red ;
+}

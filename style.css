@@ -31,7 +31,7 @@ main article {
     justify-content: flex-end;
     background: gray;
     height: 100%;
-    width: 200px;
+    width: 30%;
 }
 #banner{
     position: relative;
@@ -70,10 +70,23 @@ nav ul {
     align-items: center;
     
     justify-content: space-evenly;
-    width: 60%;
+    width: 80%;
     height: 100%;
     /* border: 1px solid; */
    
+}
+@media (max-width:400px) {
+
+    
+    nav ul  {
+        position: relative;
+        left: -133px;
+        /* align-items: flex-start;
+        justify-content: flex-start; */
+        flex-direction: column;
+
+       
+    }
 }
 nav ul a {
     display: flex;
